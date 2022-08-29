@@ -1,0 +1,59 @@
+.box{
+
+    padding: 10px 20px;
+    border: 20px solid blue;
+    height: 50px;
+    width: 40px;
+}
+.bax{
+    
+    margin-left: 11%;
+    margin-top: -8%;
+    padding: 18px 25px;
+    border: 10px solid green;
+    height: 30px;
+    width: 20px;
+}
+
+.ibox{
+
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    border: 7px solid orange;
+    height: 20px;
+    width: 20px;
+}
+div p{
+    color: blue;
+}
+
+div > p{
+    color: aqua;
+}
+
+div ~ p{
+    color:brown
+}
+.fix{
+    position: fixed;
+    right: 0;
+    color: blueviolet;
+}
+.rela{
+    position: relative;
+    left: 107px;;
+}
+.imgover{
+    position: relative;
+}
+.para{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.imge{
+    position: relative;
+    right: -400px;
+    top:-400px;
+}
